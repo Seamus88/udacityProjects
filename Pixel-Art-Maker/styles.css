@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'VT323', monospace;;
+    font-size: 90px;
+    color: red;
+    margin: 0.2em;
+  background-color: black;
+}
+
+h2 {
+    font-family: 'VT323', monospace;
+    color: black;
+    font-size: 2.2em;
+    margin: 1em 0 0.25em;
+}
+
+form {
+  font-family: 'VT323', monospace;
+  font-size: 1.5em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
